@@ -1,19 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
-/*!
 
- =========================================================
- * Paper Kit 2 - v2.0.1
- =========================================================
+body{
+  padding: 3rem;
+}
 
- * Product Page: http://www.creative-tim.com/product/paper-kit-2
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/timcreative/paper-kit/blob/master/LICENSE.md)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- */
-/*      light colors - used for select dropdown         */
 /*           Font Smoothing      */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td, button, input, select, textarea {
   -moz-osx-font-smoothing: grayscale;
@@ -5923,7 +5913,7 @@ textarea.form-control {
   margin-right: 24px;
 }
 
-input[type="text"] {
+/* input[type="text"] {
   background-color: transparent;
   border: 0;
   width: 80%;
@@ -5940,4 +5930,13 @@ input[type="text"] {
 input:-webkit-autofill {
     -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
     -webkit-text-fill-color: #fff !important;
+} */
+
+.movie{
+  margin: 0 4px;
+  /* background-color: #333; */
+  /* color: #fff; */
+  border: 3px solid #333;
+  font-weight: 600;
+  padding: 24px;
 }
